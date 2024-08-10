@@ -28,3 +28,9 @@ const careOf = [
     "get on the biggest pirate ship, full of zombies",
     "followed by Luffy's grandfather"
 ];
+
+const messageComponents = {
+    luffysCrew,
+    shouldDo,
+    careOf
+}
