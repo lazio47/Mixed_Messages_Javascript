@@ -39,7 +39,7 @@ const messageComponents = {
 const getMessage = () => {
     let message = '';
     let randomNum;
-    for (let component of messageComponents) {
+    for (let component in messageComponents) {
         randomNum = randomNumber(messageComponents[component].length);
         switch (component) {
             case 'luffysCrew':
