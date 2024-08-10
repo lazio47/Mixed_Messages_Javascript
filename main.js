@@ -34,3 +34,25 @@ const messageComponents = {
     shouldDo,
     careOf
 }
+
+const getMessage = () => {
+    let message = '';
+    let randomNum;
+    for (let component of messageComponents) {
+        randomNum = randomNumber(messageComponents[component].length);
+        switch (component) {
+            case 'luffysCrew':
+                message += `On Team Mugiwara no Luffy, you look more like ${messageComponents[component][randomNum]}!\n`;
+                break;
+            case 'shouldDo':
+                message += `Based on your abilities, you should ${messageComponents[component][randomNum]}!\n`;
+                break;
+            case 'careOf':
+                message += `Be careful because you are ${messageComponents[component][randomNum]}!\n`;
+                break;
+            default:
+                message += `Monkey D. Luffy will be the king of pirates!`;
+        }
+    }
+    return message;
+}
