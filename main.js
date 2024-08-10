@@ -13,3 +13,11 @@ const luffysCrew = [
     "Brook",
     "Jinbe"
 ];
+
+const shouldDo = [
+    "train more",
+    "rest, you're ready for anything",
+    "eat, new adventures are coming",
+    "fishing for dinner",
+    "organize a party for the crew"
+];
