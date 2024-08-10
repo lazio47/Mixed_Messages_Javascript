@@ -35,6 +35,7 @@ const messageComponents = {
     careOf
 }
 
+// Generates a message
 const getMessage = () => {
     let message = '';
     let randomNum;
@@ -56,3 +57,7 @@ const getMessage = () => {
     }
     return message;
 }
+
+// Printing zone
+const gerenatedMessage = getMessage();
+console.log(gerenatedMessage);
