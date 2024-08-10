@@ -21,3 +21,10 @@ const shouldDo = [
     "fishing for dinner",
     "organize a party for the crew"
 ];
+
+const careOf = [
+    "arrive on an island",
+    "to face Buggy",
+    "get on the biggest pirate ship, full of zombies",
+    "followed by Luffy's grandfather"
+];
